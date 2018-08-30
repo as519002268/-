@@ -3,9 +3,11 @@
 #参考https://blog.csdn.net/zhuxinquan61/article/details/72582266
 
 #卸载原有的安装
-`yum remove mysql`
+```
+yum remove mysql
+```
 
-#安装依赖包
+安装依赖包
 `yum -y install autoconf automake libtool cmake ncurses-devel openssl-devel lzo-devel zlib-devel gcc gcc-c++`
 
 #下载源码包
